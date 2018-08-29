@@ -9,5 +9,8 @@
         <module name="spring-zookeeper2-client" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-zookeeper2-client" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
